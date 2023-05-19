@@ -13,3 +13,6 @@
 
 ### Showcase
 https://youtu.be/fqOpH3Ppsu8
+
+##### Credits
+[MTC Scripts](https://discord.gg/pGbhEacVkF) - for help in photo integration
