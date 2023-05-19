@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    background: transparent !important;
+    margin-top: 80px;
+}
+
+#bankingContainer {
+    background: radial-gradient(circle, rgba(204, 174, 86, 0.801) 0%, rgba(0,0,0,1) 90%);
+    min-height: 800px;
+    max-height: 800px;
+    display: none;
+}
+
+.ba{
+    color: rgb(255, 255, 255); 
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 31px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+.headbala{
+    color: rgb(255, 255, 255); 
+    margin-left: 35px;
+    font-size: 20px;
+    margin-top: 35px;
+    
+}
+
+#currentBalance{
+    color: rgb(255, 255, 255); 
+    margin-left: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: -10px;
+}
+#currentBalance1{
+    color: rgb(255, 255, 255); 
+    margin-left: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: -10px;
+}
+#currentBalance2{
+    color: rgb(255, 255, 255); 
+    margin-left: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: -10px;
+}
+#currentCashBalance1{
+    color: rgb(255, 255, 255); 
+    margin-left: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: -10px;
+}
+#currentCashBalance{
+    color: rgb(255, 255, 255); 
+    margin-left: 35px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: -10px;
+}
+#currentCashBalance2{
+    color: rgb(255, 255, 255); 
+    margin-left: -135px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+}
+#ATMContainer {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 20px;
+    min-height: 800px;
+    max-height: 800px;
+    display: none;
+    border: 2px solid red;
+}
+#withdrawamountdiv{
+    margin-top: 100px;
+}
+#depositammountdiv{
+    margin-top: 100px;
+}
+#depositAmount{
+    background:transparent; color: white; box-shadow: 0px 0px 7px 2px transparent; 
+    border: none;
+    border-bottom: 2px solid white;
+}
+#depositAmount::placeholder{
+    color: white;
+}
+#withdrawAmount{
+    background:transparent; color: white; box-shadow: 0px 0px 7px 2px transparent; 
+    border: none;
+    border-bottom: 2px solid white;
+}
+#withdrawAmount::placeholder{
+    color: white;
+}
+.statement:hover {
+    background: rgba(150, 149, 149, 0.5) !important;
+}
+
+#v-pills-tabContent,
+#v-pills-tabContent-atm {
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+#v-pills-tabContent::-webkit-scrollbar-track,
+#v-pills-tabContent-atm::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: none;
+}
+
+#v-pills-tabContent::-webkit-scrollbar-thumb,
+#v-pills-tabContent-atm::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: none;
+}
+
+#v-pills-tabContent::-webkit-scrollbar,
+#v-pills-tabContent-atm::-webkit-scrollbar {
+    width: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: transparent
+}
+
+span#customerName{
+    color: rgb(255, 255, 255); 
+    font-weight:bold;
+    font-size: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+}
+#overtitle{
+    margin-bottom: 30px;
+}
+.title {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    border-left: 2px solid white;
+}
+
+.content {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: rgb(255, 255, 255);
+    background-color: #c7a84f;
+}
+#logoffbutton{
+    background-color: rgba(110, 110, 110, 0.259);
+    border: 1px solid #c7a84f;
+    transition: 0.5s;
+    width: 100px;
+    float: right;
+    margin-top: -15px;
+}
+#logoffbutton:hover{
+    background-color: #000000;
+}
+#quickdiv{
+    margin-top: 100px;
+}
+.nav-link{
+    transition: 0.5s;
+    text-align: center;
+    padding: 16px;
+}
+.nav-link:hover{
+    background-color: rgba(110, 110, 110, 0.259);
+    
+}
+.faceimg{
+    height: 50px;
+    width: 50px;
+    margin-bottom:6px;
+    border-radius: 50%;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgba(110, 110, 110, 0.259);
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.527);
+    transition: 0.5s;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #000;
+}
+
+.btn-secondary {
+    color: rgb(255, 255, 255);
+    background-color: rgba(110, 110, 110, 0.259);
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.527);
+    transition: 0.5s;
+    border-color: transparent;
+    
+}
+.btn-secondary:hover{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    background-color: #000;
+}
+.small,
+small {
+    font-size: 95%;
+    font-weight: bolder;
+}
+
+#savingsBalance {
+    color: #28a745;
+}
